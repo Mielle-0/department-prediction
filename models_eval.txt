@@ -1,0 +1,166 @@
+Models:
+Logistic Regression, Naïve Bayes, Support Vector Machines (SVM), BiLSTM/CNN, DistilBERT, and mBERT. 
+
+
+Category Models
+Input = details_cleaned column
+Output = type column
+
+# ---------------------------
+# Logistic Regression
+# ---------------------------
+Count Vector:
+    Accuracy: 0.8004
+    Precision: 0.8188
+    Recall: 0.8004
+    F1 Score: 0.8079
+
+TF-IDF Vector:
+    Accuracy: 0.7924
+    Precision: 0.8263
+    Recall: 0.7924
+    F1 Score: 0.8053
+
+Hashing Vector:
+    Accuracy: 0.7538
+    Precision: 0.8092
+    Recall: 0.7538
+    F1 Score: 0.7748
+
+
+# ---------------------------
+# Naïve Bayes
+# ---------------------------
+Count Vector:
+    Accuracy: 0.7735
+    Precision: 0.7921
+    Recall: 0.7735
+    F1 Score: 0.7782
+
+Hashing Vector:
+    Accuracy: 0.7422
+    Precision: 0.7993
+    Recall: 0.7422
+    F1 Score: 0.7639
+
+
+# ---------------------------
+# SVM - Linear SVC
+# ---------------------------
+Count Vector:
+    Accuracy: 0.7933
+    Precision: 0.8086
+    Recall: 0.7933
+    F1 Score: 0.8000
+
+TF-IDF Vector:
+    Accuracy: 0.7991
+    Precision: 0.8233
+    Recall: 0.7991
+    F1 Score: 0.8087
+
+Hashing Vector:
+    Accuracy: 0.7874
+    Precision: 0.8214
+    Recall: 0.7874
+    F1 Score: 0.8006
+
+
+# ---------------------------
+# CNN/BiLSTM
+# ---------------------------
+TextVectorization:
+    Accuracy: 0.7928
+    Precision: 0.8071
+    Recall: 0.7928
+    F1 Score: 0.7988
+
+
+# ---------------------------
+# DistilBERT
+# ---------------------------
+DistilBertTokenizer:
+    Accuracy: 0.8377
+    Precision: 0.8340
+    Recall: 0.8377
+    F1 Score: 0.8316
+
+
+
+
+
+Department Models
+Input = branch column and details_cleaned column concatenated
+Output = dep column
+
+# ---------------------------
+# Logistic Regression
+# ---------------------------
+Count Vector:
+    Accuracy: 0.4857
+    Precision: 0.6005
+    Recall: 0.4857
+    F1 Score: 0.5049
+
+TF-IDF Vector:
+    Accuracy: 0.3525
+    Precision: 0.6047
+    Recall: 0.3525
+    F1 Score: 0.3464
+
+Hashing Vector:
+    Accuracy: 0.2493
+    Precision: 0.5894
+    Recall: 0.2493
+    F1 Score: 0.2556
+
+
+# ---------------------------
+# Naïve Bayes
+# ---------------------------
+Count Vector:
+    Accuracy: 0.2561
+    Precision: 0.6295
+    Recall: 0.2561
+    F1 Score: 0.2357
+
+
+Hashing Vector:
+    Accuracy: 0.1619
+    Precision: 0.6787
+    Recall: 0.1619
+    F1 Score: 0.1764
+
+
+# ---------------------------
+# SVM
+# ---------------------------
+Count Vector:
+
+
+TF-IDF Vector:
+
+
+Hashing Vector:
+
+
+
+# ---------------------------
+# CNN/BiLSTM
+# ---------------------------
+TextVectorization:
+
+
+# ---------------------------
+# DistilBERT
+# ---------------------------
+DistilBertTokenizer:
+TextVectorization:
+
+
+# ---------------------------
+# mBERT
+# ---------------------------
+
+
+

@@ -1,0 +1,112 @@
+Models:
+Logistic Regression, Naïve Bayes, Support Vector Machines (SVM), BiLSTM/CNN, DistilBERT, and mBERT. 
+
+
+Department Models
+Input = branch column and details_cleaned column concatenated
+Output = dep column
+
+# ---------------------------
+# Logistic Regression
+# ---------------------------
+Count Vector:
+    Accuracy: 0.4861
+    Precision: 0.5984
+    Recall: 0.4861
+    F1 Score: 0.5052
+
+
+TF-IDF Vector:
+    Accuracy: 0.3713
+    Precision: 0.6135
+    Recall: 0.3713
+    F1 Score: 0.3749
+
+
+Hashing Vector:
+    Accuracy: 0.2709
+    Precision: 0.5961
+    Recall: 0.2709
+    F1 Score: 0.2849
+
+
+
+# ---------------------------
+# Naïve Bayes
+# ---------------------------
+Count Vector:
+    Accuracy: 0.5614
+    Precision: 0.5311
+    Recall: 0.5614
+    F1 Score: 0.5387
+
+
+
+Hashing Vector:
+    Accuracy: 0.4740
+    Precision: 0.2935
+    Recall: 0.4740
+    F1 Score: 0.3117
+
+
+
+# ---------------------------
+# SVM
+# ---------------------------
+Count Vector:
+    Accuracy: 0.5619
+    Precision: 0.5085
+    Recall: 0.5619
+    F1 Score: 0.4767
+
+
+
+TF-IDF Vector:
+    Accuracy: 0.5946
+    Precision: 0.5525
+    Recall: 0.5946
+    F1 Score: 0.5497
+
+
+Hashing Vector:
+    Accuracy: 0.5879
+    Precision: 0.5492
+    Recall: 0.5879
+    F1 Score: 0.5437
+
+
+
+
+# ---------------------------
+# CNN/BiLSTM
+# ---------------------------
+TextVectorization:
+    Accuracy: 0.5538
+    Precision: 0.5411
+    Recall: 0.5538
+    F1 Score: 0.5430
+
+
+
+# ---------------------------
+# DistilBERT
+# ---------------------------
+DistilBertTokenizer:
+    Accuracy: 0.6103
+    Precision: 0.5569
+    Recall: 0.6103
+    F1 Score: 0.5796
+
+
+
+# ---------------------------
+# MultilingualBERT
+# ---------------------------
+BertTokenizer:
+    Accuracy: 0.6148
+    Precision: 0.5697
+    Recall: 0.6148
+    F1 Score: 0.5870
+
+
+
